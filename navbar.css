@@ -1,0 +1,32 @@
+/*.header-2 {
+    background-color: rgb(11, 160, 230);
+    width: 100%;
+    text-align: center;
+}
+
+.header-2 .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header-2 .navbar a {
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.header-2 .navbar a:hover {
+    background: rgba(255, 255, 255, 0.342);
+}
+
+.header-2.activate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+*/

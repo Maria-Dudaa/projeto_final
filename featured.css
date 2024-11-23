@@ -1,0 +1,22 @@
+/*#featured {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+
+.product-item {
+    width: 20rem;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+*/
