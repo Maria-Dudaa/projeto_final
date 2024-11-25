@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="search" placeholder="Procurar aqui" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="a" class="fas fa-heart"></a>
+            <a href="a" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="featured">Featured</a>
+            <a href="reviews">Reviews</a>
+            <a href="contato">Contato</a>
+        </nav>
+    </div>
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#contato" class="fas fa-phone"></a>
+    </nav>
+
+        <div class="login-form-container">
+    
+            <div id="close-login-btn" class="fas fa-times close-login-btn"></div>
+            <form action="">
+                <h3>Entre em sua conta</h3>
+                <span>Usuario</span>
+                <input type="email" name="" class="box" placeholder="Entre com seu email" id="">
+                <span>Senha de usuario</span>
+                <input type="password" name="" class="box" placeholder="Entre com sua senha" id="">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me"> Lembre-me</label>
+                </div>
+                <input type="submit" value="Entre" class="btn">
+                <p> Esqueceu a senha? <a href="#">Clique aqui</a></p>
+                <p> Não tem uma conta? <a href="#">Clique aqui</a></p>
+            </form>
+        </div>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="discount-text">75% de desconto!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsam! Id ut debitis repellendus. 
+                    Eveniet qui aspernatur officia pariatur, cum nisi? Optio itaque deleniti quas nemo praesentium aperiam reiciendis quam?</p>
+                <a href="#" class="btn"> Compre agora </a>
+            </div>
+            <img src="img/imagem4.png" class="banner-image" alt="Imagem do Banner">
+        </div>
+    </section>
+
+
+
+    <!-- Seção Featured -->
+    <section id="featured" class="section">
+        <h2>Featured Products</h2>
+        <div class="product-slider">
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Produto 1</p>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpg" alt="Product 2">
+                <p>Produto 2</p>
+            </div>
+            <!-- Adicionar mais produtos aqui -->
+        </div>
+    </section>
+
+    <!-- Seção Reviews -->
+    <section id="reviews" class="section">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="reviews-container">
+            <div class="review">
+                <p>"Excelente produto! Muito satisfeito."</p>
+                <p>- João Silva</p>
+            </div>
+            <div class="review">
+                <p>"O atendimento foi muito bom e o envio rápido."</p>
+                <p>- Maria Oliveira</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="form">
+        <h2>Fale conosco</h2>
+        <form action="#">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
+
+
+      
+    <script src="script.js"></script>
+</body>
+</html>
