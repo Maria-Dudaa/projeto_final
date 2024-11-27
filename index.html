@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Final</title>
+    <title>BrilhoPerfeito</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="reviwes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -30,15 +32,13 @@
 
     <div class="header-2">
         <nav class="navbar">
-            <a href="">Home</a>
-            <a href="featured">Featured</a>
-            <a href="reviews">Reviews</a>
+            <a href="Produtos">Produtos</a>
+            <a href="Reviews">Reviews</a>
             <a href="contato">Contato</a>
         </nav>
     </div>
 
     <nav class="bottom-navbar">
-        <a href="#home" class="fas fa-home"></a>
         <a href="#featured" class="fas fa-list"></a>
         <a href="#reviews" class="fas fa-comments"></a>
         <a href="#contato" class="fas fa-phone"></a>
@@ -69,8 +69,8 @@
         <div class="banner">
             <div class="banner-content">
                 <h3 class="discount-text">75% de desconto!</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ipsam! Id ut debitis repellendus. 
-                    Eveniet qui aspernatur officia pariatur, cum nisi? Optio itaque deleniti quas nemo praesentium aperiam reiciendis quam?</p>
+                <p>
+                    Aproveite o conjunto de joias rosa em promoção! Composto por colar, brincos e anel, combina elegância e sofisticação com tons vibrantes e acabamentos delicados. Feito com materiais de alta qualidade, é perfeito para qualquer ocasião. Um brilho único por um preço especial!</p>
                 <a href="#" class="btn"> Compre agora </a>
             </div>
             <img src="img/imagem4.png" class="banner-image" alt="Imagem do Banner">
@@ -80,17 +80,36 @@
 
 
     <!-- Seção Featured -->
-    <section id="featured" class="section">
-        <h2>Featured Products</h2>
-        <div class="product-slider">
-            <div class="product-item">
-                <img src="product1.jpg" alt="Product 1">
-                <p>Produto 1</p>
-            </div>
-            <div class="product-item">
-                <img src="product2.jpg" alt="Product 2">
-                <p>Produto 2</p>
-            </div>
+    <div class="container">
+        <!-- Produto 1 -->
+        <div class="produto">
+            <img src="img/imagem7.avif" alt="Produto 1"> <a href=""></a>
+            <h3>Conjunto De Joias</h3>
+            <p>Este conjunto de joias com pulseira é a escolha perfeita para quem busca elegância e sofisticação. Composto por colar, brincos e uma linda pulseira, o conjunto possui um design moderno e refinado, ideal para diversas ocasiões.</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Produto 2 -->
+        <div class="produto">
+            <img src="img/imagem3.jpg" alt="Produto 2"> <a href=""></a>
+            <h3>Colar de Ouro</h3>
+            <p>Este colar de coroa é uma peça encantadora e cheia de elegância. Com um design sofisticado, a coroa delicadamente detalhada traz um toque de realeza ao seu visual. Feito com materiais de alta qualidade, o colar combina brilho e durabilidade.</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Produto 3 -->
+        <div class="produto">
+            <img src="img/imagem9.avif" alt="Produto 3"> <a href=""></a>
+            <h3>Colar de Ouro com Diamante</h3>
+            <p>Este colar de ouro com diamante é uma peça sofisticada e atemporal. A pedra central, com seu brilho intenso e aparência de diamante, é rodeada por um design refinado que valoriza ainda mais sua beleza.</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Produto 4 -->
+        <div class="produto">
+            <img src="img/imagem8.jpg" alt="Produto 4"> 
+            <h3>Anel com Esmeralda</h3>
+            <p>Este anel de esmeralda é uma peça deslumbrante e cheia de sofisticação. A esmeralda, com seu verde intenso e vibrante, é a estrela central, rodeada por detalhes delicados que realçam ainda mais sua beleza. Feito com materiais de alta qualidade, o anel oferece um acabamento refinado e durabilidade, sendo a escolha perfeita para quem busca um acessório elegante e atemporal.</p>
+            <button>Comprar</button>
+        </div>
+    </div>
             <!-- Adicionar mais produtos aqui -->
         </div>
     </section>
@@ -99,13 +118,25 @@
     <section id="reviews" class="section">
         <h2>O que nossos clientes dizem</h2>
         <div class="reviews-container">
+            <!-- Review 1 -->
             <div class="review">
-                <p>"Excelente produto! Muito satisfeito."</p>
-                <p>- João Silva</p>
+                <div class="customer-image">
+                    <img src="img/cliente1.avif" alt="João Silva">
+                </div>
+                <div class="review-text">
+                    <p class="quote">"Excelente produto! Muito satisfeito."</p>
+                    <p class="customer-name">- João Silva</p>
+                </div>
             </div>
+            <!-- Review 2 -->
             <div class="review">
-                <p>"O atendimento foi muito bom e o envio rápido."</p>
-                <p>- Maria Oliveira</p>
+                <div class="customer-image">
+                    <img src="img/cliente2.avif" alt="Maria Oliveira">
+                </div>
+                <div class="review-text">
+                    <p class="quote">"O atendimento foi muito bom e o envio rápido."</p>
+                    <p class="customer-name">- Maria Oliveira</p>
+                </div>
             </div>
         </div>
     </section>
@@ -121,7 +152,31 @@
         </form>
     </section>
 
+  
+    <!-- 
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBWX9imiHKpctQyJniWaT-qerh4IKazUEg",
+          authDomain: "projetofinalvocacao.firebaseapp.com",
+          projectId: "projetofinalvocacao",
+          storageBucket: "projetofinalvocacao.firebasestorage.app",
+          messagingSenderId: "316367794216",
+          appId: "1:316367794216:web:b7d7612830dbf9d568451d",
+          measurementId: "G-9QGPYYZLYL"
+        };
+      
+       
+      </script>
 
+      <script src="banco.js"></script>-->
       
     <script src="script.js"></script>
 </body>
